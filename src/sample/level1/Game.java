@@ -26,7 +26,7 @@ public class Game {
 
     public ArrayList<Node> attacksCharacter = new ArrayList<>();
     public ArrayList<Node> attacksBoss = new ArrayList<>();
-    Image imageBall = new Image("file:///Volumes/George/IdeaProjects/fableNew/src/sample/level1/ballCharacter.png");
+    Image imageBall = new Image(getClass().getResourceAsStream("ballCharacter.png"));
     Image fireImage = new Image(getClass().getResourceAsStream("ball.png"));
     Image backGroundImg = new Image(getClass().getResourceAsStream("XcWa7.png"));
     int score;
